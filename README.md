@@ -32,4 +32,5 @@ Henan University Bachelor degree paper latex Template
 
 10.改编自武汉大学本科论文模板，特此致谢！
 
+davidgaow 
 2019 年 11 月 27 日
