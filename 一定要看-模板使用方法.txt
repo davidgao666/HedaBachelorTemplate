@@ -16,7 +16,7 @@
 5.includefile 存放的是英文封面、中英文摘要、致谢等等正文以外的部分。
   请直接在这些文件中填写相关内容,不要改变文件的位置.
 
-6.更多使用说明请参看 Bachelor-template-BACK.pdf , 以及源文件 Bachelor-template.tex 里的注释说明.
+6.更多使用说明请参看 Bachelor-template-backup.pdf , 以及源文件 Bachelor-template.tex 里的注释说明.
 
 7.最新模板下载地址:
   https://github.com/davidgao666/HedaBachelorTemplate
