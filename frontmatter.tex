@@ -1,0 +1,101 @@
+% !Mode:: "TeX:UTF-8"
+
+%%% 此部分需要自行填写: (1) 中文摘要及关键词 (2) 英文摘要及关键词
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% -------------  英文封面 (无需改动!!!)-------------   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\renewcommand{\baselinestretch}{1.5}  %下文的行距
+\vspace*{0.5cm}
+\begin{center}
+{\Large \bf BACHELOR'S DEGREE THESIS \\[1ex] OF HENAN UNIVERSITY }
+\end{center}
+\vspace{2.5cm}
+\begin{center}{\zihao{2} \the\Etitle \par}\end{center}
+
+\vfill
+
+\begin{center}
+\zihao{4}
+\begin{tabular}{ r l }
+ School:          & {\sc \the\Eschoolname}\\
+  Major:          &   {\sc\the\Emajor}  \\
+ Candidate:      &  {\sc \the\Eauthor}      \\
+ Supervisor:     &  {\sc \the\Esupervisor}
+\end{tabular}
+
+\vspace*{2cm}
+\begin{center}
+   \ifprint % 文档打印, 使用黑白校徽.
+  \includegraphics[height=4cm]{hedalogo.pdf}       %%  黑白的.
+  \else
+  \includegraphics[height=4cm]{hedalogo.pdf} %%  彩色的.
+  \fi
+\end{center}
+
+
+\zihao{-2}
+%\the\Schoolname\\
+{\sc Henan University}
+
+\vspace*{1.0cm}
+
+\the\Edate
+
+\end{center}
+%%% 郑重声明部分无需改动
+
+%%%---- 郑重声明 (无需改动!!!)------------------------------------%
+%\newpage
+%\vspace*{20pt}
+%\begin{center}{\ziju{0.8}\textbf{\songti\zihao{2} 郑重声明}}\end{center}
+%\par\vspace*{30pt}
+%\renewcommand{\baselinestretch}{2}
+%
+%{\zihao{4}%
+%
+%本人呈交的学位论文, 是在导师的指导下, 独立进行研究工作所取得的成果,
+%所有数据、图片资料真实可靠. 尽我所知, 除文中已经注明引用的内容外,
+%本学位论文的研究成果不包含他人享有著作权的内容.
+%对本论文所涉及的研究工作做出贡献的其他个人和集体,
+%均已在文中以明确的方式标明. 本学位论文的知识产权归属于培养单位.\\[2cm]
+%
+%\hspace*{1cm}本人签名: $\underline{\hspace{3.5cm}}$
+%\hspace{2cm}日期: $\underline{\hspace{3.5cm}}$\hfill\par}
+%%------------------------------------------------------------------------------
+%\baselineskip=23pt  % 正文行距为 23 磅
+%%------------------------------------------------------------------------------
+%
+
+
+
+%%======中文摘要===========================%
+\begin{cnabstract}
+	%自己的论文摘要
+摘要是论文内容不加注释和评论的简短陈述，应以第三人称陈述，采用“分析了……原因”、“认为……”、“对……进行了探讨”等记述方法进行描述。摘要是论文内容的高度概括，应具有独立性和自含性，即不阅读论文的全文，就能获得必要的信息。摘要应包括本论文的目的、主要研究内容和研究方法、研究结果及其理论与实际意义等，重点突出研究成果和结论。摘要中不宜使用公式、化学结构式、图表和非公知公用的符号与术语，不标注引用文献编号，同时避免将摘要写成目录式的内容介绍。摘要字数在300字左右。
+关键词：关键词是为了文献索引工作从论文中选取出来用以表示全文主题内容信息的单词或术语。一般每篇论文应选取3～5个词作为关键词。关键词间用中文逗号分隔，最后1个词后不打标点符号。
+
+\end{cnabstract}
+\par
+\vspace*{2em} %%产生空行
+
+%%%%--  关键词 -----------------------------------------%%%%%%%%
+%%%%-- 在下面的大括号中写入自己论文的关键词。注意: 每个关键词之间用“；”分开，最后一个关键词不打标点符号
+\cnkeywords{毕业论文; \LaTeX{}; 模板  }
+
+\cleardoublepage 
+
+%%====英文摘要==========================%
+
+\begin{enabstract}
+This thesis is a study on the theory of \dots.
+
+\end{enabstract}
+\par
+\vspace*{2em}
+
+%%%%%-- Key words --------------------------------------%%%%%%%
+%%%%-- 注意: 每个关键词之间用“；”分开，最后一个关键词不打标点符号
+ \enkeywords{\LaTeX{}; XXX }
+ \cleardoublepage 
+ 
